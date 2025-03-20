@@ -10,5 +10,6 @@ contract TestWrappedJetton is ERC20 {
 
     function isWrappedJetton() external pure returns (bool) {
         return true;
-    }
+    }     
 }
+       
